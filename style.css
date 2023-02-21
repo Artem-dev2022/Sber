@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Regular.woff2') format('woff2'), url('./fonts/Montserrat-Regular.woff') format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Medium.woff2') format('woff2'), url('./fonts/Montserrat-Medium.woff') format('woff');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-SemiBold.woff2') format('woff2'), url('./fonts/Montserrat-SemiBold.woff') format('woff');
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Bold.woff2') format('woff2'), url('./fonts/Montserrat-Bold.woff') format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0.96);
+    border: none;
+    outline: none;
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: #080808;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1308px;
+}
+
+.title-h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.main {
+    margin: 120px 0 115px 0;
+}
+
+.main__title {
+    margin: 0 auto;
+    margin-bottom: 16px;
+    width: 800px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.main__text {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.56);
+}
+
+.main__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    gap: 25px;
+    height: 659px;
+}
+
+.main__left {
+    padding: 257px 0 0 134px;
+    background-image: url(./images/left.png);
+}
+
+.main__right {
+    padding: 487px 0 0 85px;
+    background-image: url(./images/right.png);
+}
+
+.main__wrapper__title {
+    margin-bottom: 8px;
+    text-decoration-line: underline;
+}
+
+.main__wrapper__item {
+    margin-bottom: 8px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.game {
+    margin-bottom: 102px;
+}
+
+.game__title {
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.game__wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    background-color: #2760EC;
+    border-radius: 24px;
+    height: 443px;
+}
+
+.game__block {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 40px 52px;
+}
+
+.game__subtitle {
+    margin-bottom: 16px;
+}
+
+.game__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.019em;
+    color: rgba(255, 255, 255, 0.56);
+}
+
+.game__btn {
+    margin: auto auto 0 0;
+    padding: 18px 26px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.game__btn:hover {
+    color: #2760EC;
+    background-color: rgba(255, 255, 255, 0.96);;
+}
+
+.game__image {
+    transform: translate(17px, 0px);
+}
+
+.advantages {
+    margin-bottom: 76px;
+}
+
+.advantages__title {
+    margin: 0 auto 69px auto;
+    width: 938px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.advantages__title--mobile {
+    display: none;
+}
+
+.advantages__wrapper {
+    position: relative;
+    height: 253px;
+}
+
+.advantages__item {
+    position: absolute;
+    padding: 23px 0 35px 48px;
+    border-radius: 32px;
+    width: 558px;
+    height: 100%;
+}
+
+.advantages__item--1 {
+    background-color: #944BD6;
+}
+
+.advantages__item--2 {
+    right: 338px;
+    background-color: #135AED;
+}
+
+.advantages__item--2 .advantages__text {
+    width: 395px;
+}
+
+.advantages__item--3 {
+    right: 0;
+    width: 446px;
+    background-color: #B7D521;
+}
+
+.advantages__icon {
+    margin-bottom: 13px;
+}
+
+.advantages__text {
+    width: 150px;
+}

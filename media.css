@@ -1,0 +1,153 @@
+@media (max-width: 1439px) {
+    .container {
+        width: 343px;
+    }
+
+    .title-h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .main {
+        margin: 105px 0 80px 0;
+    }
+
+    .main__title {
+        margin-bottom: 3px;
+        font-size: 32px;
+        line-height: 36px;
+        width: 304px;
+    }
+
+    .main__text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .main__wrapper {
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 4fr);
+        gap: 45px;
+        height: fit-content;
+    }
+
+    .main__left {
+        padding: 113px 0 0 54px;
+        width: 100%;
+        height: 357px;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .main__right {
+        padding: 254px 0 0 54px;
+        width: 100%;
+        height: 361px;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .main__wrapper__title {
+        margin-bottom: 13px;
+    }
+
+    .main__wrapper__item {
+        width: 270px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.019em;
+    }
+
+    .game {
+        margin-bottom: 81px;
+    }
+
+    .game__title {
+        margin-bottom: 34px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .game__subtitle {
+        width: 240px;
+    }
+
+    .game__wrapper {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+        height: 611px;
+    }
+    
+    .game__image {
+        transform: translate(24px, 4px);
+    }
+
+    picture {
+        height: fit-content;
+    }
+
+    .game__block {
+        padding: 32px 24px;
+    }
+
+    .game__text {
+        margin-bottom: 24px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .advantages__title {
+        display: none;
+    }
+
+    .advantages__title--mobile {
+        display: block;
+        margin-bottom: 25px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: -0.1rem;
+    }
+
+    .advantages__wrapper {
+        height: 640px;
+    }
+
+    .advantages__item {
+        padding: 27px 19px;
+        border-radius: 16px;
+    }
+
+    .advantages__text {
+        width: 310px;
+    }
+
+    .advantages__item--1 {
+        top: 0;
+        width: 100%;
+    }
+
+    .advantages__item--2 {
+        top: 228px;
+        right: 0;
+        width: 100%;
+        height: 380px;
+    }
+
+    .advantages__item--2 .advantages__text {
+        width: 340px;
+    }
+
+    .advantages__item--3 {
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 214px;
+    }
+    
+    .advantages__icon {
+        margin-bottom: 2px;
+    }
+}
